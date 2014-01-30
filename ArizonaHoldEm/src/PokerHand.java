@@ -67,6 +67,9 @@ public class PokerHand implements Comparable<PokerHand> {
 		tallyRanks[c4.getRankArrayIndex()]++;
 		tallyRanks[c5.getRankArrayIndex()]++;
 
+		for(Card card : hand) {
+			tallySuits[card.getSuitIndex()]++;
+		}
 	}
 
 	private void orderCards() {
