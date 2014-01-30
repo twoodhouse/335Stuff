@@ -4,7 +4,7 @@
  * Arizona HoldEm
  * CSC335, Spring 2014
  * 
- * **Test of repository commit**#2
+ * **Test of repository commit**#3
  */
 
 public class ArizonaHoldEm {
